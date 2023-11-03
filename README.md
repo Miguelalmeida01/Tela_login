@@ -1,23 +1,17 @@
 # Tela_login
-sddsadsdasdsssdadasdsdsadaddsdasdsad
+![imagem do git](/img/readme.png)
+## Bem vindo ao projeto
 
-##Bem vindo ao projeto
-asdddsdadsdsaddsada
+## Updates
 
-##Updates
-sdfsadsdaddsdsdadsdsd
+- [x] _Em desenvolvimento_
 
-[x] _Em desenvolvimento_
+- [ ] _Finalizado_
 
-[] _Finalizado_
+## Planta do projeto
 
-##Planta do projeto
+![Foto do projeto](/img/Projeto.png)
 
+## Linguagens
 
-
-##Linguagens
-
-###_HTML,CSS,JS_
-
-
-[def]: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
+### _HTML,CSS,JS_

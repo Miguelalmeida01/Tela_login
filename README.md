@@ -1,5 +1,5 @@
 # Tela_login
-![imagem do git](/img/readme.png)
+
 
 #Bem vindo ao projeto
 
@@ -11,7 +11,7 @@
 
 ##Planta do projeto
 
-![Foto do projeto](/Preview_do_projeto/Projeto.png)
+
 
 ##Linguagens
 

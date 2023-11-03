@@ -1,5 +1,5 @@
 # Bem vindo ao projeto
-[**Bem vindo**](#bem-vindo-ao-projeto) | [**Updates**](#updates) | [**Planta do projeto**](#planta-do-projeto) | [**Linguagens**](#linguagens) | [**Instalação**](#instalação-via-git) | [**Rede social**](#rede-social)
+ [**Updates**](#updates) | [**Planta do projeto**](#planta-do-projeto) | [**Linguagens**](#linguagens) | [**Instalação**](#instalação-via-git) | [**Rede social**](#rede-social)
 
 ![imagem do git](/img/readme.png) 
 
@@ -26,6 +26,8 @@
  ```
 ## Rede social
 
-[Linkedln](https://www.linkedin.com/in/miguel-almeida-32aa6b225/)
+- [Linkedln](https://www.linkedin.com/in/miguel-almeida-32aa6b225/)
+
+
 
 [**voltar para o topo**](#bem-vindo-ao-projeto)

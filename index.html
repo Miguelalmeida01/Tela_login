@@ -5,11 +5,17 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://kit.fontawesome.com/8fd5942ddf.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,900;1,700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/colors.css">
       <link rel="stylesheet" href="./css/main.css">
       <link rel="stylesheet" href="./css/login_container.css">
       <link rel="stylesheet" href="./css/form_container.css">
       <link rel="stylesheet" href="./css/form.css">
+      <link rel="stylesheet" href="./css/form_title.css">
+      <link rel="stylesheet" href="./css/social_icon.css">
       <tittle>Login - Miguel</tittle>
 </head>
 <body>
@@ -17,13 +23,23 @@
             <div class="login_container">
                 <div class="form_container">
                     <form class="form form_login">
-                       <h2 class="form_tittle"> Entrar com</h2>
+                       <h2 class="form_title"> Entrar com</h2>
                        <div class="form_social">
+                           <a href="#" class="social_icon">
                              <i class="fa-brands fa-facebook-f"></i>
-
+                           </a>  
+                           <a href="#" class="social_icon">
+                             <i class="fa-brands fa-google"></i>
+                           </a>  
+                           <a href="#" class="social_icon">
+                             <i class="fa-brands fa-linkedin-in"></i>
+                           </a> 
                        </div>
                        <p class="form_text">ou utilize sua conta</p>
-                       <div class="form_inputs"></div>
+                       <div class="form_inputs">
+                            <input type="email" class="form_input" placeholder="Email">
+                            <input type="password" class="form_input" placeholder="Password">
+                       </div>
                        <a href="#" class="form_link">Esqueceu a senha?</a>
                        <button class="form_button">Logar</button>
                     </form>

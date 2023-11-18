@@ -17,3 +17,13 @@
     background-color: var(--primary-color);
     color: var(--secundary-color);
 }
+
+.form_button_light{
+    border: 2px solid var(--secundary-color);
+    color: var(--secundary-color);
+}
+
+.form_button_light:hover{
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}

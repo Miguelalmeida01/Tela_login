@@ -20,6 +20,8 @@
       <link rel="stylesheet" href="./css/form_input_container.css">
       <link rel="stylesheet" href="./css/form_input.css">
       <link rel="stylesheet" href="./css/form_button.css">
+      <link rel="stylesheet" href="./css/overlay_container.css">
+      <link rel="stylesheet" href="./css/overlay.css">
       <tittle>Login - Miguel</tittle>
 </head>
 <body>
@@ -42,14 +44,42 @@
                        <p class="form_text">ou utilize sua conta</p>
                        <div class="form_input_container">
                             <input type="email" class="form_input" placeholder="Email">
-                            <input type="password" class="form_input" placeholder="Password">
+                            <input type="password" class="form_input" placeholder="Senha">
                        </div>
                        <a href="#" class="form_link">Esqueceu a senha?</a>
                        <button class="form_button">Logar</button>
                     </form>
-                    <form class="form form_register"></form>
-
+                    <form class="form form_register">
+                      <h2 class="form_title"> Criar Conta</h2>
+                      <div class="form_social">
+                        <a href="#" class="social_icon">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>  
+                        <a href="#" class="social_icon">
+                          <i class="fa-brands fa-google"></i>
+                        </a>  
+                        <a href="#" class="social_icon">
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </a> 
+                        </div>
+                        <p class="form_text">ou cadastre seu email</p>
+                        <div class="form_input_container">
+                          <input type="text" class="form_input" placeholder="Nome">
+                          <input type="email" class="form_input" placeholder="Email">
+                          <input type="password" class="form_input" placeholder="Senha">
+                     </div>
+                     <button class="form_button">Cadastrar</button>
+                    </form>
+                    
                 </div>  
+                <div class="overlay_container">
+                     <div class="overlay">1</div>
+                     <div class="overlay">
+                      <h2 class="form_title form_title_light">Olá Aluno!</h2>
+                      <p class="form_text">Cadastre-se e comece a usar a nossa plataforma on-line</p>
+                      <button class="form_button form_button_light">Cadastrar</button>
+                     </div>
+                </div>
             </div>
       </main>
 </body>

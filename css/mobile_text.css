@@ -1,0 +1,13 @@
+.mobile_text{
+    display:none;
+}
+
+@media(max-width:768px){
+    .mobile_text{
+        display: block;
+    }
+    .mobile_text a {
+        font-weight: 900;
+        color: inherit;
+    }
+}

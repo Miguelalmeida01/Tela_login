@@ -7,9 +7,9 @@
 
 - [x] _Em desenvolvimento_
 
-- [ ] _v1.0_
+- [x] _v1.0_
 
-- [ ] _Finalizado_
+- [x] _Finalizado_
 
 ## Planta do projeto
 

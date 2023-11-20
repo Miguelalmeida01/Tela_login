@@ -7,4 +7,16 @@
     transform: translateX(100%);
     color: var(--text-color-light);
     text-align: center;
+    z-index: 10;
+    transition:1s;
+}
+
+.login_container.move .overlay_container{
+    transform: translateX(0%);
+}
+
+@media(max-width:768px){
+    .overlay_container{
+        display: none;
+    }
 }

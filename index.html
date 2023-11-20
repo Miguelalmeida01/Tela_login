@@ -22,11 +22,13 @@
       <link rel="stylesheet" href="./css/form_button.css">
       <link rel="stylesheet" href="./css/overlay_container.css">
       <link rel="stylesheet" href="./css/overlay.css">
-      <tittle>Login - Miguel</tittle>
+      <link rel="stylesheet" href="./css/mobile_text.css">
+
+      <script src="./js/login.js" defer></script>
 </head>
 <body>
       <main>
-            <div class="login_container">
+            <div class="login_container " id="login_container">
                 <div class="form_container">
                     <form class="form form_login">
                        <h2 class="form_title"> Entrar com</h2>
@@ -47,7 +49,10 @@
                             <input type="password" class="form_input" placeholder="Senha">
                        </div>
                        <a href="#" class="form_link">Esqueceu a senha?</a>
-                       <button class="form_button">Logar</button>
+                       <button type="button" class="form_button">Logar</button>
+                       <p class="mobile_text">Não tem conta? 
+                             <a href="#" id="open_register_mobile">Registre-se</a>
+                       </p>
                     </form>
                     <form class="form form_register">
                       <h2 class="form_title"> Criar Conta</h2>
@@ -68,16 +73,23 @@
                           <input type="email" class="form_input" placeholder="Email">
                           <input type="password" class="form_input" placeholder="Senha">
                      </div>
-                     <button class="form_button">Cadastrar</button>
+                     <button type="button" class="form_button">Cadastrar</button>
+                     <p class="mobile_text">Já tem conta? 
+                         <a href="#" id="open_login_mobile">Login</a>
+                     </p>
                     </form>
                     
                 </div>  
                 <div class="overlay_container">
-                     <div class="overlay">1</div>
+                     <div class="overlay">
+                      <h2 class="form_title form_title_light">Já tem conta?</h2>
+                      <p class="form_text">Para entrar na nossa plataforma faça login com suas informações</p>
+                      <button class="form_button form_button_light" id="open_login">Entrar</button> 
+                     </div>
                      <div class="overlay">
                       <h2 class="form_title form_title_light">Olá Aluno!</h2>
                       <p class="form_text">Cadastre-se e comece a usar a nossa plataforma on-line</p>
-                      <button class="form_button form_button_light">Cadastrar</button>
+                      <button class="form_button form_button_light" id="open_register">Cadastrar</button>
                      </div>
                 </div>
             </div>
